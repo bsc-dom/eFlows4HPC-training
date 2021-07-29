@@ -24,7 +24,3 @@ enqueue_compss \
 	--storage_props="$PWD/execution_values" \
 	--prolog="$DATACLAY_HOME/bin/dataclayprepare,$PWD/model/,$PWD,model,python" \
 		$PWD/matmul_main.py
-
-
-###### Remember update the reservation
-#	--reservation=PATC20-DATA \
